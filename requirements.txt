@@ -1,0 +1,28 @@
+# Core LangChain and LangGraph dependencies
+langchain>=0.1.0
+langgraph>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.20
+
+# LLM providers
+langchain-anthropic>=0.1.0
+langchain-openai>=0.0.5
+
+# Vector stores and embeddings
+faiss-cpu>=1.7.4
+
+# Text processing
+langchain-text-splitters>=0.0.1
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# Optional but recommended
+ipython>=8.0.0
+jupyter>=1.0.0
+
+# For development and testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
